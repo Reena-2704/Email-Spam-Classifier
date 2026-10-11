@@ -1,0 +1,43 @@
+{
+    "best_model": "SVM",
+    "test_samples": 1034,
+    "training_samples": 4135,
+    "results": [
+        {
+            "model": "Naive Bayes",
+            "accuracy": 0.9652,
+            "precision": 1.0,
+            "recall": 0.7252,
+            "f1_score": 0.8407,
+            "false_positive_rate": 0.0,
+            "true_negative": 903,
+            "false_positive": 0,
+            "false_negative": 36,
+            "true_positive": 95
+        },
+        {
+            "model": "Logistic Regression",
+            "accuracy": 0.9758,
+            "precision": 0.9141,
+            "recall": 0.8931,
+            "f1_score": 0.9035,
+            "false_positive_rate": 0.0122,
+            "true_negative": 892,
+            "false_positive": 11,
+            "false_negative": 14,
+            "true_positive": 117
+        },
+        {
+            "model": "SVM",
+            "accuracy": 0.9816,
+            "precision": 0.9516,
+            "recall": 0.9008,
+            "f1_score": 0.9255,
+            "false_positive_rate": 0.0066,
+            "true_negative": 897,
+            "false_positive": 6,
+            "false_negative": 13,
+            "true_positive": 118
+        }
+    ]
+}
