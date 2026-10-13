@@ -10,10 +10,24 @@
             "recall": 0.7252,
             "f1_score": 0.8407,
             "false_positive_rate": 0.0,
+            "tn": 903,
+            "fp": 0,
+            "fn": 36,
+            "tp": 95,
             "true_negative": 903,
             "false_positive": 0,
             "false_negative": 36,
-            "true_positive": 95
+            "true_positive": 95,
+            "confusion_matrix": [
+                [
+                    903,
+                    0
+                ],
+                [
+                    36,
+                    95
+                ]
+            ]
         },
         {
             "model": "Logistic Regression",
@@ -22,10 +36,24 @@
             "recall": 0.8931,
             "f1_score": 0.9035,
             "false_positive_rate": 0.0122,
+            "tn": 892,
+            "fp": 11,
+            "fn": 14,
+            "tp": 117,
             "true_negative": 892,
             "false_positive": 11,
             "false_negative": 14,
-            "true_positive": 117
+            "true_positive": 117,
+            "confusion_matrix": [
+                [
+                    892,
+                    11
+                ],
+                [
+                    14,
+                    117
+                ]
+            ]
         },
         {
             "model": "SVM",
@@ -34,10 +62,24 @@
             "recall": 0.9008,
             "f1_score": 0.9255,
             "false_positive_rate": 0.0066,
+            "tn": 897,
+            "fp": 6,
+            "fn": 13,
+            "tp": 118,
             "true_negative": 897,
             "false_positive": 6,
             "false_negative": 13,
-            "true_positive": 118
+            "true_positive": 118,
+            "confusion_matrix": [
+                [
+                    897,
+                    6
+                ],
+                [
+                    13,
+                    118
+                ]
+            ]
         }
     ]
 }
